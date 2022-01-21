@@ -1,0 +1,78 @@
+@import url('http://fonts.cdnfonts.com/css/vegur-2');
+*{
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+    font-family: 'Vegur', sans-serif;
+}
+.copy-notification{
+    background-color: rgba(19, 19, 19, 0.95);
+    color: #fff;
+    padding: 8px 15px 8px 15px;
+    border-radius: 20px;
+    width: 300px;
+    font-size: 14px;
+}
+.card{
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 0;
+    width: 250px;
+    box-shadow: 0px 0px 10px -4px rgb(156 156 156 / 50%);
+    cursor: pointer;
+}
+.card-color{
+    border-radius: 10px;
+    height: 250px;
+    background-color: aqua;
+}
+.card-info{
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    width: 100px;
+}
+@keyframes fullView {
+    100% {
+        width: 100%;
+    }
+}
+.animate {
+    animation : shimmer 2s infinite;
+    background: linear-gradient(to right, #eff1f3 4%, #e2e2e2 25%, #eff1f3 36%);
+    background-size: 1000px 100%;
+}
+@keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+    }
+    100% {
+        background-position: 1000px 0;
+    }
+}
+.btn-gen-palette{
+    font-size: 15px;
+    padding: 16px;
+    width: 340px;
+    border: 0;
+    border-radius: 6px;
+    color: #fff;
+    background-color: rgb(158, 64, 221, 0.9);
+}
+.bounce-enter-active {
+    animation: bounce-in .5s;
+  }
+.bounce-leave-active {
+    animation: bounce-in .5s reverse;
+}
+@keyframes bounce-in {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
