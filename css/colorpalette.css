@@ -20,6 +20,7 @@
     width: 250px;
     box-shadow: 0px 0px 10px -4px rgb(156 156 156 / 50%);
     cursor: pointer;
+    margin-bottom: 10px;
 }
 .card-color{
     border-radius: 10px;
@@ -31,6 +32,11 @@
     border-radius: 5px;
     margin: auto;
     width: 100px;
+}
+@media screen and (max-width: 700px){
+    .d-flex{
+        flex-wrap: wrap !important;
+    }
 }
 @keyframes fullView {
     100% {
